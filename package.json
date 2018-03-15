@@ -91,9 +91,9 @@
   },
   "babel": {
     "presets": [
-      "relay",
       "react-app"
-    ]
+    ],
+    "plugins": ["relay"]
   },
   "eslintConfig": {
     "extends": "react-app"

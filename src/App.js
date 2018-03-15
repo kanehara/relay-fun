@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {graphql, QueryRenderer} from 'react-relay';
 import environment from './relayEnv';
@@ -10,7 +9,7 @@ class App extends Component {
       <QueryRenderer
         environment={environment}
         query={graphql`
-          query Query {
+          query AppQuery {
             genres
           }
         `}
